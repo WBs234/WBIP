@@ -46,7 +46,14 @@ def iptracker():
     time.sleep(2)
 logo()
 iptracker()
-rap=input('Digite 1 para continuar e 2 para sair: ')
-logo()
-While rap=="1":
+while true:
+   rap=input('Digite 1 para continuar e 2 para sair: ')
+if rap=='1':
     iptracker()
+elif rap=='2':
+    print('Finalizando...')
+    time.sleep(2)
+    os.system("exit")
+else:
+    print('Resposta inválida, fechando script')
+    os.system('exit')
