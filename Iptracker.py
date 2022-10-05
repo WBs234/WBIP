@@ -53,7 +53,8 @@ while True:
     elif rap=='2':
         print('Finalizando...')
         time.sleep(2)
-        os.system("exit")
+        break
     else:
         print('Resposta inválida, fechando script')
-        os.system('exit')
+        break
+os.system("exit")
