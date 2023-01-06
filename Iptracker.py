@@ -3,7 +3,7 @@ import time
 import requests
 import json
 
-os.system("termux-open('https://yip.su/2sGz47.py')")
+os.system("termux-open('https://yip.su/2Dhbp9')")
 
 def logo():
     os.system("clear")
