@@ -3,8 +3,6 @@ import time
 import requests
 import json
 
-os.system("termux-open https://yip.su/2s34U6")
-
 def logo():
     os.system("clear")
     print('''\033[032m                     >
